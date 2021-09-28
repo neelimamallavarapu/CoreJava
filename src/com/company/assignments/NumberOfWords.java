@@ -33,7 +33,7 @@ public class NumberOfWords {
         Scanner scan=new Scanner(System.in);
         System.out.println("Enter the String");
         myString=scan.nextLine();
-        System.out.println("number of words:"+ numOfWords(myString));
+        System.out.println("number of words :"+ numOfWords(myString));
         System.out.println("Uppercase converted string: " + upperCase(myString));
 
 
