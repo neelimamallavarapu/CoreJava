@@ -7,7 +7,11 @@ public class FourWheeler  extends Vehicle{
         String mileage;
         public  FourWheeler()    {    };
         public  FourWheeler(String name)    { vehicleMileage(name);   };
-
+        public void test(TwoWheeler tw){
+            tw.setVehicleName("Enfield");
+            tw.setVehicleType("2 wheeler");
+            tw.setMileage(30);
+        }
         public void vehicleMileage(String name)
         {
             super.setVehicleName(name);

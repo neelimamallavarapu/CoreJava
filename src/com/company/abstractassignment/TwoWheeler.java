@@ -1,9 +1,6 @@
 package com.company.abstractassignment;
 
 public class TwoWheeler extends Vehicle {
-    String vehicleName;
-    String vehicleType;
-    String mileage;
     public  TwoWheeler()    {    };
     public  TwoWheeler(String name)    { vehicleMileage(name);   };
 
@@ -18,19 +15,17 @@ public class TwoWheeler extends Vehicle {
         else if(name=="Pleasure")
             super.setMileage(50);
     }
-/*
+
     public void show(TwoWheeler tw){
         System.out.println("Below is from show function of 2 wheeler class:");
         tw.setVehicleName("Enfield");
         tw.setVehicleType("2 wheeler");
         tw.setMileage(30);
-        System.out.println(tw.vehicleName);
-        System.out.println(tw.vehicleType);
-        System.out.println(tw.mileage);
 
 
 
-    }*/
+
+    }
 
 
     /*
